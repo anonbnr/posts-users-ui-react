@@ -1,0 +1,133 @@
+/* No User Found */
+.not-found {
+    text-align: center;
+    font-size: 18px;
+    color: red;
+    margin-top: 20px;
+}
+
+/* Profile Card */
+.profile-card {
+    width: 100%;
+    max-width: 650px;
+    margin: 20px auto;
+    padding: 25px;
+    border-radius: 12px;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.15);
+    background: white;
+}
+
+/* Hover Effect */
+.profile-card:hover {
+    transform: scale(1.02);
+    box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.18);
+}
+
+/* Header Styling */
+.profile-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+/* Profile Details */
+.profile-details {
+    flex-grow: 1;
+}
+
+/* Profile Avatar (Moved Right) */
+.profile-avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+.profile-avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Profile Join Date */
+.profile-date {
+    font-size: 14px;
+    color: #666;
+}
+
+/* Sections */
+.info-section,
+.extra-info {
+    padding: 10px 0;
+    line-height: 1.6;
+}
+
+/* Row-based styling (Icons & Text Alignment Fixed) */
+.info-row {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.info-icon {
+    font-size: 22px;
+    color: #3f51b5;
+}
+
+/* Bio Section */
+.bio-section {
+    margin: 15px 0;
+}
+
+.bio-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #3f51b5;
+}
+
+.bio-content {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.6;
+    max-width: 100%;
+}
+
+/* Read More / Read Less Button */
+.toggle-bio {
+    font-size: 14px;
+    font-weight: 500;
+    color: #3f51b5;
+    cursor: pointer;
+    background: none;
+    border: none;
+    padding: 5px;
+    text-decoration: underline;
+}
+
+.toggle-bio:hover {
+    color: #283593;
+}
+
+/* Favorite Color Box */
+.color-box {
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+/* Newsletter Styling */
+.newsletter {
+    font-weight: bold;
+    color: #388e3c;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}

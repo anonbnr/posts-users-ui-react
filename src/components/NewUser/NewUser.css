@@ -1,0 +1,108 @@
+/* User Form Card */
+.user-form-card {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+    background: white;
+}
+
+/* Form Title */
+.form-title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 15px;
+    color: #3f51b5;
+}
+
+/* Full-width Form Fields */
+.full-width {
+    width: 100%;
+    margin-bottom: 20px !important;
+}
+
+/* Gender Radio Group */
+.gender-label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #3f51b5;
+}
+
+.gender-group {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+/* Button Container */
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Button Styling */
+button {
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 8px;
+    padding: 12px 20px;
+    text-transform: none;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Button Hover */
+button:hover {
+    background: #283593 !important;
+    color: white;
+}
+
+/* AGREEMENT LEVEL STYLING */
+.agreement-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #3f51b5;
+}
+
+.agreement-value {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+/* AVATAR UPLOAD STYLING */
+/* File Upload Styling */
+.file-upload {
+    margin: 20px 0;
+    font-size: 16px;
+    text-align: center;
+    padding: 15px;
+}
+
+.avatar-preview {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.avatar-preview img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* NEWSLETTER STYLING */
+.newsletter-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 15px 0;
+}

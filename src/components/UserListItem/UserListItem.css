@@ -1,0 +1,42 @@
+/* User Preview Card */
+.user-preview-card {
+    width: 250px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.15);
+    background: white;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.user-preview-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.18);
+}
+
+/* User Info */
+.user-preview-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+/* User Avatar */
+.user-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* User Name */
+.user-name {
+    color: #333;
+    margin: 0;
+}
+
+/* User Country */
+.user-country {
+    color: #666;
+}
