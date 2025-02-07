@@ -1,0 +1,53 @@
+/* Full Width Container */
+.new-post-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    background: white;
+}
+
+/* Add spacing between title and content */
+.new-post-container .title-field {
+    margin-bottom: 25px; /* Adds more space between title and content */
+}
+
+/* Title Styling */
+.new-post-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #3f51b5;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Form Field Styling */
+.full-width {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+/* Button Container */
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Button Styling */
+.button-container button {
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 8px;
+    padding: 12px 20px;
+    text-transform: none;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Button Hover */
+.button-container button:hover {
+    background: #283593 !important;
+    color: white;
+}
