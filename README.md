@@ -63,12 +63,12 @@ The app will be available at: **http://localhost:4201/**
 ---
 
 ## 📜 Available Routes
-| Path | Component | Description |
-|------|----------|-------------|
-| `/posts` | `PostList` | View all posts |
-| `/new-post` | `NewPost` | Create a new post |
-| `/users` | `UserList` | View users list |
-| `/users/:id` | `UserProfile` | View user profile |
-| `/new-user` | `NewUser` | Register a new user |
-| `/user-search` | `UserSearch` | Search for users by email |
+| Path                          | Component          | Description                |
+| ----------------------------- | ------------------ | -------------------------- |
+| `/posts`                      | `PostList`         | View all posts             |
+| `/new-post`                   | `NewPost`          | Create a new post          |
+| `/users`                      | `UserList`         | View users list            |
+| `/users/:id`                  | `UserProfile`      | View user profile          |
+| `/new-user`                   | `NewUser`          | Register a new user        |
+| `/user-search`                | `UserSearch`       | Search for users by email  |
 | `/user-availability-schedule` | `UserAvailability` | Schedule user availability |

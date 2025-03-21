@@ -2,12 +2,12 @@ import { Navigate, Route, BrowserRouter as Router, Routes } from "react-router-d
 import './App.css';
 import Header from './components/Header/Header';
 import NewPost from "./components/NewPost/NewPost";
+import NewUser from "./components/NewUser/NewUser";
 import PostList from "./components/PostList/PostList";
+import UserAvailability from "./components/UserAvailability/UserAvailability";
 import UserList from "./components/UserList/UserList";
 import UserProfile from "./components/UserProfile/UserProfile";
-import NewUser from "./components/NewUser/NewUser";
 import UserSearch from "./components/UserSearch/UserSearch";
-import UserAvailability from "./components/UserAvailability/UserAvailability";
 
 function App() {
   return (

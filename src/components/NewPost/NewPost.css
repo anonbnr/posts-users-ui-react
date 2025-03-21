@@ -11,7 +11,8 @@
 
 /* Add spacing between title and content */
 .new-post-container .title-field {
-    margin-bottom: 25px; /* Adds more space between title and content */
+    margin-bottom: 25px;
+    /* Adds more space between title and content */
 }
 
 /* Title Styling */
